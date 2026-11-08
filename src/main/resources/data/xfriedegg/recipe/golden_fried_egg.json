@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "G G",
+    " E ",
+    "G G"
+  ],
+  "key": {
+    "G": "minecraft:gold_nugget",
+    "E": "xfriedegg:fried_egg"
+  },
+  "result": {
+    "id": "xfriedegg:golden_fried_egg",
+    "count": 1
+  }
+}

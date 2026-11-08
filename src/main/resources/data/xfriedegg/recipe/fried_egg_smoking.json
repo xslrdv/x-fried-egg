@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": "#minecraft:eggs",
+  "result": {
+    "id": "xfriedegg:fried_egg",
+    "count": 1
+  }
+}
