@@ -9,11 +9,11 @@ A vanilla-friendly **Minecraft** mod for **NeoForge** that turns simple eggs int
 * **Fried Egg**
   * Smelt regular eggs in a *Furnace* or *Smoker*.
   * Restores **4** *Nutrition* and **6** *Saturation*.
-  * Quick, accessible, and satisfying food source for early-game survival.
 * **Golden Fried Egg**
   * Crafted using a **Fried Egg** surrounded by *Gold Nuggets*.
   * Restores **4** *Nutrition* and **8** *Saturation*.
-  * Always edible, high-tier *food* option providing *Regeneration I* - perfect for mid-to-late game adventures, Nether raids, and boss fights.
+  * Always edible.
+  * Provides the effect of *Regeneration I*.
 
 ---
 
