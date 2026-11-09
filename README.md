@@ -19,8 +19,8 @@ A vanilla-friendly **Minecraft** mod for **NeoForge** that turns simple eggs int
 
 ## 💡 Why Fried Egg?
 
-* **Balanced Progression:** Offers quick sustenance early on and scales into a valuable luxury *food* item later in the game.
-* **Vanilla-Friendly:** Cleanly integrates into the game without unnecessary mechanics or clutter.
+* **Balanced Progression**: Offers quick sustenance early on and scales into a valuable luxury *food* item later in the game.
+* **Vanilla-Friendly**: Cleanly integrates into the game without unnecessary mechanics or clutter.
 
 ---
 
