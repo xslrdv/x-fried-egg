@@ -1,6 +1,6 @@
 # 🍳 X Fried Egg
 
-A lightweight, vanilla-friendly Minecraft mod for **NeoForge** that turns simple eggs into a practical food source and valuable consumables across all stages of survival.
+A vanilla-friendly Minecraft mod for **NeoForge** that turns simple eggs into a practical food source and valuable consumables across all stages of survival.
 
 ---
 
