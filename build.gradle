@@ -22,7 +22,7 @@ repositories {
 }
 
 base {
-    archivesName = mod_file_name
+    archivesName = "${mod_id}-${minecraft_version}-neoforge"
 }
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(25)
@@ -83,8 +83,7 @@ var generateModMetadata = tasks.register("generateModMetadata", ProcessResources
             mod_license            : mod_license,
             mod_version            : mod_version,
             mod_author             : mod_author,
-            mod_description        : mod_description,
-            mod_file_name          : mod_file_name
+            mod_description        : mod_description
     ]
     inputs.properties replaceProperties
     expand replaceProperties
