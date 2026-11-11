@@ -5,10 +5,6 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 
 public class ModCreativeTabs {
-    public static void register(IEventBus modEventBus) {
-        modEventBus.addListener(ModCreativeTabs::addToTabs);
-    }
-
     private static void addToTabs(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.FRIED_EGG);
@@ -19,5 +15,9 @@ public class ModCreativeTabs {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.LAPIS_LAZULI_DUST);
         }
+    }
+	
+	public static void register(IEventBus modEventBus) {
+        modEventBus.addListener(ModCreativeTabs::addToTabs);
     }
 }

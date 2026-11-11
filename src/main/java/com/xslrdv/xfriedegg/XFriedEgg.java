@@ -25,7 +25,6 @@ import com.xslrdv.xfriedegg.registry.ModRecipes;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 
-
 @Mod(XFriedEgg.MODID)
 public class XFriedEgg {
     public static final String MODID = "xfriedegg";

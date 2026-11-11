@@ -18,12 +18,10 @@ import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.Level;
 
 public class PickaxeCrushRecipe extends CustomRecipe {
-
     // lapis lazili to lapis_lazuli_dust
     public static final PickaxeCrushRecipe LAPIS_LAZULI = new PickaxeCrushRecipe(
             stack -> stack.is(Items.LAPIS_LAZULI),
             () -> ModItems.LAPIS_LAZULI_DUST.get());
-
 
     public static final RecipeSerializer<PickaxeCrushRecipe> LAPIS_LAZULI_SERIALIZER =
             new RecipeSerializer<>(MapCodec.unit(LAPIS_LAZULI), StreamCodec.unit(LAPIS_LAZULI));

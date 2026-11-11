@@ -16,9 +16,6 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(XFriedEgg.MODID);
-    public static void register(IEventBus bus) {
-        ITEMS.register(bus);
-    }
 
     public static final DeferredItem<Item> FRIED_EGG = ITEMS.registerSimpleItem("fried_egg",
     () -> new Item.Properties().food(
@@ -61,4 +58,8 @@ public class ModItems {
     );
 
     public static final DeferredItem<Item> LAPIS_LAZULI_DUST = ITEMS.registerSimpleItem("lapis_lazuli_dust");
+	
+	public static void register(IEventBus bus) {
+        ITEMS.register(bus);
+    }
 }
