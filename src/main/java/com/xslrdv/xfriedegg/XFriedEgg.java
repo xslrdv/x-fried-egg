@@ -1,5 +1,5 @@
 /*
- * X Fried Egg - Minecraft mod adding fried and golden fried eggs.
+ * X Fried Egg - Minecraft mod adding fried eggs.
  * Copyright (C) 2026 xslrdv
  *
  * This program is free software: you can redistribute it and/or modify
