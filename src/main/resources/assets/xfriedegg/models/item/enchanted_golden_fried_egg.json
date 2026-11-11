@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "xfriedegg:item/enchanted_golden_fried_egg"
+  }
+}

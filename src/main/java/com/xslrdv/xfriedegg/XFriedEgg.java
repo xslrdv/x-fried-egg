@@ -20,6 +20,7 @@ package com.xslrdv.xfriedegg;
 
 import com.xslrdv.xfriedegg.registry.ModCreativeTabs;
 import com.xslrdv.xfriedegg.registry.ModItems;
+import com.xslrdv.xfriedegg.registry.ModRecipes;
 
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
@@ -31,6 +32,7 @@ public class XFriedEgg {
 
     public XFriedEgg(IEventBus modEventBus) {
         ModItems.ITEMS.register(modEventBus);
+        ModRecipes.register(modEventBus);
         ModCreativeTabs.register(modEventBus);
     }
 }

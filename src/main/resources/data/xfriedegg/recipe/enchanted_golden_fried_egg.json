@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " G ",
+    "GEG",
+    " G "
+  ],
+  "key": {
+    "G": "xfriedegg:lapis_lazuli_dust",
+    "E": "xfriedegg:golden_fried_egg"
+  },
+  "result": {
+    "id": "xfriedegg:enchanted_golden_fried_egg",
+    "count": 1
+  }
+}
