@@ -7,13 +7,21 @@ A vanilla-friendly **Minecraft** mod for **NeoForge** that turns simple eggs int
 ## ✨ Features
 
 * **Fried Egg**
-  * Smelt regular eggs in a *Furnace* or *Smoker*.
-  * Restores **4** *Nutrition* and **6** *Saturation*.
+  * Cook regular eggs in a *Furnace*, *Smoker*, or on a *Campfire*.
+  * Restores **4** *Nutrition* (2 Drumsticks) and **6** *Saturation*.
 * **Golden Fried Egg**
   * Crafted using a **Fried Egg** surrounded by *Gold Nuggets*.
   * Restores **4** *Nutrition* and **8** *Saturation*.
+  * Always edible (can be eaten even when full).
+  * Grants of *Regeneration I* (5 seconds).
+* **Enchanted Golden Fried Egg**
+  * Crafted using a **Golden Fried Egg** surrounded by *Lapis Lazuli Dust* (or a **Fried Egg** with *Gold Nuggets* and *Lapis Lazuli Dust*).
+  * Restores **4** *Nutrition* and **10** *Saturation*.
   * Always edible.
-  * Provides the effect of *Regeneration I*.
+  * Grants *Regeneration I* (5 seconds) and *Resistance I* (1 minute).
+* **Lapis Lazuli Dust**
+  * Obtained by crushing *Lapis Lazuli* using a *Pickaxe*.
+  * Used as a crafting ingredient and for enchanting.
 
 ---
 
