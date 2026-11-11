@@ -13,7 +13,7 @@ A vanilla-friendly **Minecraft** mod for **NeoForge** that turns simple eggs int
   * Crafted using a **Fried Egg** surrounded by *Gold Nuggets*.
   * Restores **4** *Nutrition* and **8** *Saturation*.
   * Always edible (can be eaten even when full).
-  * Grants of *Regeneration I* (5 seconds).
+  * Grants *Regeneration I* (5 seconds).
 * **Enchanted Golden Fried Egg**
   * Crafted using a **Golden Fried Egg** surrounded by **Lapis Lazuli Dust**.
   * Or crafted using a **Fried Egg** surrounded by *Gold Nuggets* and **Lapis Lazuli Dust**.
