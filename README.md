@@ -15,7 +15,8 @@ A vanilla-friendly **Minecraft** mod for **NeoForge** that turns simple eggs int
   * Always edible (can be eaten even when full).
   * Grants of *Regeneration I* (5 seconds).
 * **Enchanted Golden Fried Egg**
-  * Crafted using a **Golden Fried Egg** surrounded by *Lapis Lazuli Dust* (or a **Fried Egg** with *Gold Nuggets* and *Lapis Lazuli Dust*).
+  * Crafted using a **Golden Fried Egg** surrounded by **Lapis Lazuli Dust**.
+  * Or crafted using a **Fried Egg** surrounded by *Gold Nuggets* and **Lapis Lazuli Dust**.
   * Restores **4** *Nutrition* and **10** *Saturation*.
   * Always edible.
   * Grants *Regeneration I* (5 seconds) and *Resistance I* (1 minute).
