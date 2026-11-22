@@ -1,5 +1,5 @@
 /*
- * X Fried Egg - Minecraft mod adding fried eggs.
+ * X Fried Egg - Adds Fried Eggs into useful food sources throughout all stages of survival.
  * Copyright (C) 2026 xslrdv
  *
  * This program is free software: you can redistribute it and/or modify
@@ -19,7 +19,6 @@ package com.xslrdv.xfriedegg;
 
 import com.xslrdv.xfriedegg.registry.ModCreativeTabs;
 import com.xslrdv.xfriedegg.registry.ModItems;
-import com.xslrdv.xfriedegg.registry.ModRecipes;
 
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
@@ -29,8 +28,7 @@ public class XFriedEgg {
     public static final String MODID = "xfriedegg";
 
     public XFriedEgg(IEventBus modEventBus) {
-        ModItems.ITEMS.register(modEventBus);
-        ModRecipes.register(modEventBus);
+        ModItems.register(modEventBus);
         ModCreativeTabs.register(modEventBus);
     }
 }

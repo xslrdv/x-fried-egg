@@ -11,10 +11,6 @@ public class ModCreativeTabs {
             event.accept(ModItems.GOLDEN_FRIED_EGG);
             event.accept(ModItems.ENCHANTED_GOLDEN_FRIED_EGG);
         }
-
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.LAPIS_LAZULI_DUST);
-        }
     }
 	
 	public static void register(IEventBus modEventBus) {

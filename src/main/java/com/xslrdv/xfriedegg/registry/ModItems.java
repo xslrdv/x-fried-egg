@@ -57,8 +57,6 @@ public class ModItems {
             )
     );
 
-    public static final DeferredItem<Item> LAPIS_LAZULI_DUST = ITEMS.registerSimpleItem("lapis_lazuli_dust");
-	
 	public static void register(IEventBus bus) {
         ITEMS.register(bus);
     }
